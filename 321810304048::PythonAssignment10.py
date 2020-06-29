@@ -51,9 +51,8 @@ print("List of unique numbers : ",my_new_list)
 #List of unique numbers :
 #  [1, 2, 3, 4, 5, 8]
 
-#4.Write a function that checks whether a number is in a given range inclusive of
-high and low
-def ran_check(low,high,num):
+#4.Write a function that checks whether a number is in a given range(inclusive of high and low) 
+ def ran_check(low,high,num):
     for i in range(low,high+1):
         if num==i:
             print (num,'number is within the range')
@@ -64,6 +63,7 @@ low=int(input('Enter the starting range:'))
 high=int(input('Enter the ending range:'))
 num=int(input('Enter the number:'))
 ran_check(low,high,num)
+
 #Output:-
 #CASE1:
 #Enter the starting range:1
